@@ -1,9 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import dayjs from 'dayjs';
-import {View, Text, TouchableOpacity, StyleSheet, FlatList} from 'react-native';
-import BleManager from 'react-native-ble-manager';
-import {Button} from 'native-base';
-import {requestLocationPermission} from '../../permission';
+import {View, Text, TouchableOpacity, StyleSheet} from 'react-native';
+import BLEConnect from '../../component/BleConnect';
 //import { Appbar } from 'react-native-paper';
 
 const HomeScreen = ({navigation}) => {
@@ -22,22 +20,6 @@ const HomeScreen = ({navigation}) => {
   const handlePress = () => {
     navigation.navigate('Next');
   };
-  ///////////////////////////////////////////////////////////////////////////////
-  const [devices, setDevices] = useState([]);
-
-  useEffect(() => {
-    requestLocationPermission();
-  }, []);
-
-  useEffect(() => {
-    BleManager.start({showAlert: false});
-    BleManager.enableBluetooth().then(() =>
-      console.log('Bluetooth is enabled'),
-    );
-    return () => {
-      BleManager.stopScan();
-    };
-  }, []);
 
   return (
     <View style={styles.container}>
@@ -46,6 +28,8 @@ const HomeScreen = ({navigation}) => {
         <Text style={styles.buttonText}>Coral Of</Text>
         <Text style={styles.TextSee}> See</Text>
       </TouchableOpacity>
+
+      <BLEConnect />
     </View>
   );
 };

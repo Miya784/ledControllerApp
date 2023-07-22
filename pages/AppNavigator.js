@@ -15,21 +15,29 @@ const AppNavigator = () => {
   return (
     <NativeBaseProvider>
       <NavigationContainer>
-        <Stack.Navigator>
+        <Stack.Navigator
+          screenOptions={{cardStyle: {backgroundColor: '#F4F2DE'}}}>
           <Stack.Screen
             name="Home"
             component={HomeScreen}
-            options={{headerShown: false}}
+            options={{
+              headerShown: false,
+              // cardStyle: {backgroundColor: 'green'},
+            }}
           />
           <Stack.Screen
             name="Next"
             component={NextScreen1}
-            options={{headerShown: false}}
+            options={{
+              headerShown: false,
+            }}
           />
           <Stack.Screen
             name="seletemode"
             component={NextScreen2}
-            options={{headerShown: false}}
+            options={{
+              headerShown: false,
+            }}
           />
           <Stack.Screen
             name="mode1"
