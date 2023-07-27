@@ -1,33 +1,59 @@
-import {MODE_1, MODE_2, MODE_3} from './actions';
+import {
+	Slider_1,
+	Slider_2,
+	Switch_Fi,
+	Switch_Mid,
+	Switch_Four,
+} from './action';
 
 export const initialState = {
-  mode2: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+	slider1: 0,
+	slider2: 0,
+	switchFi: 'off',
+	switchMid: 'off',
+	switchFour: 'open',
 };
 
 const Reducers = (state = initialState, action) => {
-  switch (action.type) {
-    case MODE_1: {
-      return {
-        ...state,
-      };
-    }
-    case MODE_2: {
-      const {id, value} = action.payload;
-      let newValue = [...state.mode2];
-      newValue[id] = value;
-      return {
-        ...state,
-        mode2: newValue,
-      };
-    }
-    case MODE_3: {
-      return {
-        ...state,
-      };
-    }
-    default:
-      return state;
-  }
+	switch (action.type) {
+		case Slider_1: {
+			const { value } = action.payload;
+			return {
+				...state,
+				slider1: value,
+			};
+		}
+		case Slider_2: {
+			const { value } = action.payload;
+			return {
+				...state,
+				slider2: value,
+			};
+		}
+		case Switch_Fi: {
+			const { value } = action.payload;
+			return {
+				...state,
+				switchFi: value,
+			};
+		}
+		case Switch_Mid: {
+			const { value } = action.payload;
+			return {
+				...state,
+				switchMid: value,
+			};
+		}
+		case Switch_Four: {
+			const { value } = action.payload;
+			return {
+				...state,
+				switchFour: value,
+			};
+		}
+		default:
+			return state;
+	}
 };
 
 export default Reducers;
