@@ -2319,6 +2319,19 @@
     color "^4.2.3"
     warn-once "^0.1.0"
 
+<<<<<<< HEAD
+=======
+"@react-stately/checkbox@3.0.3":
+  version "3.0.3"
+  resolved "https://registry.npmjs.org/@react-stately/checkbox/-/checkbox-3.0.3.tgz"
+  integrity sha512-amT889DTLdbjAVjZ9j9TytN73PszynGIspKi1QSUCvXeA2OVyCwShxhV0Pn7yYX8cMinvGXrjhWdhn0nhYeMdg==
+  dependencies:
+    "@babel/runtime" "^7.6.2"
+    "@react-stately/toggle" "^3.2.3"
+    "@react-stately/utils" "^3.2.2"
+    "@react-types/checkbox" "^3.2.3"
+
+>>>>>>> bfb5b53de95d1c69997cf1f0ae8e99ab831b72ec
 "@react-stately/checkbox@^3.4.3":
   version "3.4.3"
   resolved "https://registry.npmjs.org/@react-stately/checkbox/-/checkbox-3.4.3.tgz"
@@ -2330,10 +2343,17 @@
     "@react-types/shared" "^3.18.1"
     "@swc/helpers" "^0.5.0"
 
+<<<<<<< HEAD
 "@react-stately/checkbox@3.0.3":
   version "3.0.3"
   resolved "https://registry.npmjs.org/@react-stately/checkbox/-/checkbox-3.0.3.tgz"
   integrity sha512-amT889DTLdbjAVjZ9j9TytN73PszynGIspKi1QSUCvXeA2OVyCwShxhV0Pn7yYX8cMinvGXrjhWdhn0nhYeMdg==
+=======
+"@react-stately/collections@3.3.0":
+  version "3.3.0"
+  resolved "https://registry.npmjs.org/@react-stately/collections/-/collections-3.3.0.tgz"
+  integrity sha512-Y8Pfugw/tYbcR9F6GTiTkd9O4FiXErxi5aDLSZ/knS6v0pvr3EHsC3T7jLW+48dSNrwl+HkMe5ECMhWSUA1jRQ==
+>>>>>>> bfb5b53de95d1c69997cf1f0ae8e99ab831b72ec
   dependencies:
     "@babel/runtime" "^7.6.2"
     "@react-stately/toggle" "^3.2.3"
@@ -2348,10 +2368,17 @@
     "@react-types/shared" "^3.18.1"
     "@swc/helpers" "^0.5.0"
 
+<<<<<<< HEAD
 "@react-stately/collections@3.3.0":
   version "3.3.0"
   resolved "https://registry.npmjs.org/@react-stately/collections/-/collections-3.3.0.tgz"
   integrity sha512-Y8Pfugw/tYbcR9F6GTiTkd9O4FiXErxi5aDLSZ/knS6v0pvr3EHsC3T7jLW+48dSNrwl+HkMe5ECMhWSUA1jRQ==
+=======
+"@react-stately/combobox@3.0.0-alpha.1":
+  version "3.0.0-alpha.1"
+  resolved "https://registry.npmjs.org/@react-stately/combobox/-/combobox-3.0.0-alpha.1.tgz"
+  integrity sha512-v0DNGLx0KGvNgBbXoSKzfHGcy65eP0Wx4uY3dqj+u9k3ru2BEvIqB8fo6CWhQqu8VHBX4AlhoxcyrloIKvjD/g==
+>>>>>>> bfb5b53de95d1c69997cf1f0ae8e99ab831b72ec
   dependencies:
     "@babel/runtime" "^7.6.2"
     "@react-types/shared" "^3.2.1"
@@ -2438,6 +2465,18 @@
     "@react-types/overlays" "^3.8.0"
     "@swc/helpers" "^0.5.0"
 
+<<<<<<< HEAD
+=======
+"@react-stately/radio@3.2.1":
+  version "3.2.1"
+  resolved "https://registry.npmjs.org/@react-stately/radio/-/radio-3.2.1.tgz"
+  integrity sha512-WGYMWCDJQOicFLf+bW2CbAnlRWaqsUd028WpsS41GWyIx/w7DVpUeGFwTSvyCXC5SCQZuambsWHgXNz8Ng5WIA==
+  dependencies:
+    "@babel/runtime" "^7.6.2"
+    "@react-stately/utils" "^3.1.1"
+    "@react-types/radio" "^3.1.1"
+
+>>>>>>> bfb5b53de95d1c69997cf1f0ae8e99ab831b72ec
 "@react-stately/radio@^3.2.1", "@react-stately/radio@^3.8.2":
   version "3.8.2"
   resolved "https://registry.npmjs.org/@react-stately/radio/-/radio-3.8.2.tgz"
@@ -2481,6 +2520,20 @@
     "@react-types/shared" "^3.18.1"
     "@swc/helpers" "^0.5.0"
 
+<<<<<<< HEAD
+=======
+"@react-stately/slider@3.0.1":
+  version "3.0.1"
+  resolved "https://registry.npmjs.org/@react-stately/slider/-/slider-3.0.1.tgz"
+  integrity sha512-gGpfdVbTmdsOvrmZvFx4hJ5b7nczvAWdHR/tFFJKfxH0/V8NudZ5hGnawY84R3x+OvgV+tKUfifEUKA+oJyG5w==
+  dependencies:
+    "@babel/runtime" "^7.6.2"
+    "@react-aria/i18n" "^3.3.0"
+    "@react-aria/utils" "^3.6.0"
+    "@react-stately/utils" "^3.2.0"
+    "@react-types/slider" "^3.0.1"
+
+>>>>>>> bfb5b53de95d1c69997cf1f0ae8e99ab831b72ec
 "@react-stately/slider@^3.0.1", "@react-stately/slider@^3.4.0":
   version "3.4.0"
   resolved "https://registry.npmjs.org/@react-stately/slider/-/slider-3.4.0.tgz"
@@ -2537,6 +2590,19 @@
     "@react-stately/utils" "^3.2.0"
     "@react-types/tabs" "3.0.0-alpha.2"
 
+<<<<<<< HEAD
+=======
+"@react-stately/toggle@3.2.1":
+  version "3.2.1"
+  resolved "https://registry.npmjs.org/@react-stately/toggle/-/toggle-3.2.1.tgz"
+  integrity sha512-gZVuJ8OYoATUoXzdprsyx6O1w3wCrN+J0KnjhrjjKTrBG68n3pZH0p6dM0XpsaCzlSv0UgNa4fhHS3dYfr/ovw==
+  dependencies:
+    "@babel/runtime" "^7.6.2"
+    "@react-stately/utils" "^3.1.1"
+    "@react-types/checkbox" "^3.2.1"
+    "@react-types/shared" "^3.2.1"
+
+>>>>>>> bfb5b53de95d1c69997cf1f0ae8e99ab831b72ec
 "@react-stately/toggle@^3.2.1", "@react-stately/toggle@^3.2.3", "@react-stately/toggle@^3.6.0":
   version "3.6.0"
   resolved "https://registry.npmjs.org/@react-stately/toggle/-/toggle-3.6.0.tgz"
@@ -2612,6 +2678,16 @@
   dependencies:
     "@react-types/shared" "^3.4.0"
 
+<<<<<<< HEAD
+=======
+"@react-types/combobox@^3.6.2":
+  version "3.6.2"
+  resolved "https://registry.npmjs.org/@react-types/combobox/-/combobox-3.6.2.tgz"
+  integrity sha512-qitu/W3Z3/ihyqocy+8n4HZKRXF5JTMHl1ug3rKps5yCNnVdkWwjPFPM6w180c9QjquThNY3o947LZ1v59qJ4A==
+  dependencies:
+    "@react-types/shared" "^3.18.1"
+
+>>>>>>> bfb5b53de95d1c69997cf1f0ae8e99ab831b72ec
 "@react-types/grid@^3.1.8":
   version "3.1.8"
   resolved "https://registry.npmjs.org/@react-types/grid/-/grid-3.1.8.tgz"
@@ -6612,7 +6688,11 @@ pkg-dir@^4.2.0:
 
 pkg-dir@^5.0.0:
   version "5.0.0"
+<<<<<<< HEAD
   resolved "https://registry.npmjs.org/pkg-dir/-/pkg-dir-5.0.0.tgz"
+=======
+  resolved "https://registry.yarnpkg.com/pkg-dir/-/pkg-dir-5.0.0.tgz#a02d6aebe6ba133a928f74aec20bafdfe6b8e760"
+>>>>>>> bfb5b53de95d1c69997cf1f0ae8e99ab831b72ec
   integrity sha512-NPE8TDbzl/3YQYY7CSS228s3g2ollTFnc+Qi3tqmqJp9Vg2ovUpixcJEo2HJScN2Ez+kEaal6y70c0ehqJBJeA==
   dependencies:
     find-up "^5.0.0"
@@ -6795,7 +6875,11 @@ react-native-feather@^1.1.2:
   resolved "https://registry.npmjs.org/react-native-feather/-/react-native-feather-1.1.2.tgz"
   integrity sha512-qBc0+XegKkX4JV6ykgScasguEV3RdlbYp9IrCMnbozngOgJ7vi76pyRpb+dnZ1AZVkYsbYnpdA9JXeP7EJbMCA==
 
+<<<<<<< HEAD
 react-native-gesture-handler@^2.12.0, "react-native-gesture-handler@>= 1.0.0":
+=======
+react-native-gesture-handler@^2.12.0:
+>>>>>>> bfb5b53de95d1c69997cf1f0ae8e99ab831b72ec
   version "2.12.0"
   resolved "https://registry.npmjs.org/react-native-gesture-handler/-/react-native-gesture-handler-2.12.0.tgz"
   integrity sha512-rr+XwVzXAVpY8co25ukvyI38fKCxTQjz7WajeZktl8qUPdh1twnSExgpT47DqDi4n+m+OiJPAnHfZOkqqAQMOg==
@@ -6828,13 +6912,21 @@ react-native-paper@^5.9.1:
 
 react-native-permissions@^3.8.4:
   version "3.8.4"
+<<<<<<< HEAD
   resolved "https://registry.npmjs.org/react-native-permissions/-/react-native-permissions-3.8.4.tgz"
+=======
+  resolved "https://registry.yarnpkg.com/react-native-permissions/-/react-native-permissions-3.8.4.tgz#20f203f1dd659c28fb770fc26bbbf0126faa797e"
+>>>>>>> bfb5b53de95d1c69997cf1f0ae8e99ab831b72ec
   integrity sha512-tJq+5eNqu8Y1PpmuSVMjQtW8E7YJbQ0LSbZ1o9KjgF7etgYmBSZeCR138x715vyZUAtwuecV+ybEM9z8dDs76Q==
   dependencies:
     picocolors "^1.0.0"
     pkg-dir "^5.0.0"
 
+<<<<<<< HEAD
 react-native-safe-area-context@*, "react-native-safe-area-context@>= 3.0.0", react-native-safe-area-context@3.3.2:
+=======
+react-native-safe-area-context@3.3.2:
+>>>>>>> bfb5b53de95d1c69997cf1f0ae8e99ab831b72ec
   version "3.3.2"
   resolved "https://registry.npmjs.org/react-native-safe-area-context/-/react-native-safe-area-context-3.3.2.tgz"
   integrity sha512-yOwiiPJ1rk+/nfK13eafbpW6sKW0jOnsRem2C1LPJjM3tfTof6hlvV5eWHATye3XOpu2cJ7N+HdkUvUDGwFD2Q==
@@ -6847,12 +6939,22 @@ react-native-screens@^3.22.1, "react-native-screens@>= 3.0.0":
     react-freeze "^1.0.0"
     warn-once "^0.1.0"
 
+<<<<<<< HEAD
 react-native-slider@^0.11.0:
   version "0.11.0"
   resolved "https://registry.npmjs.org/react-native-slider/-/react-native-slider-0.11.0.tgz"
   integrity sha512-jV9K87eu9uWr0uJIyrSpBLnCKvVlOySC2wynq9TFCdV9oGgjt7Niq8Q1A8R8v+5GHsuBw/s8vEj1AAkkUi+u+w==
   dependencies:
     prop-types "^15.5.6"
+=======
+react-native-svg@^13.10.0:
+  version "13.10.0"
+  resolved "https://registry.npmjs.org/react-native-svg/-/react-native-svg-13.10.0.tgz"
+  integrity sha512-D/oYTmUi5nsA/2Nw4WYlF1UUi3vZqhpESpiEhpYCIFB/EMd6vz4A/uq3tIzZFcfa5z2oAdGSxRU1TaYr8IcPlQ==
+  dependencies:
+    css-select "^5.1.0"
+    css-tree "^1.1.3"
+>>>>>>> bfb5b53de95d1c69997cf1f0ae8e99ab831b72ec
 
 react-native-svg@*, react-native-svg@^13.10.0, react-native-svg@>=5.3:
   version "13.10.0"
@@ -6912,10 +7014,17 @@ react-native@*, "react-native@^0.0.0-0 || 0.60 - 0.72 || 1000.0.0", react-native
     ws "^6.2.2"
     yargs "^17.6.2"
 
+<<<<<<< HEAD
 "react-redux@^7.2.1 || ^8.0.2", react-redux@^8.1.2:
   version "8.1.2"
   resolved "https://registry.npmjs.org/react-redux/-/react-redux-8.1.2.tgz"
   integrity sha512-xJKYI189VwfsFc4CJvHqHlDrzyFTY/3vZACbE+rr/zQ34Xx1wQfB4OTOSeOSNrF6BDVe8OOdxIrAnMGXA3ggfw==
+=======
+react-redux@^8.1.1:
+  version "8.1.1"
+  resolved "https://registry.npmjs.org/react-redux/-/react-redux-8.1.1.tgz"
+  integrity sha512-5W0QaKtEhj+3bC0Nj0NkqkhIv8gLADH/2kYFMTHxCVqQILiWzLv6MaLuV5wJU3BQEdHKzTfcvPN0WMS6SC1oyA==
+>>>>>>> bfb5b53de95d1c69997cf1f0ae8e99ab831b72ec
   dependencies:
     "@babel/runtime" "^7.12.1"
     "@types/hoist-non-react-statics" "^3.3.1"

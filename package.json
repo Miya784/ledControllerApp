@@ -32,7 +32,10 @@
     "react-native-permissions": "^3.8.4",
     "react-native-safe-area-context": "3.3.2",
     "react-native-screens": "^3.22.1",
+<<<<<<< HEAD
     "react-native-slider": "^0.11.0",
+=======
+>>>>>>> bfb5b53de95d1c69997cf1f0ae8e99ab831b72ec
     "react-native-svg": "^13.10.0",
     "react-native-vector-icons": "^10.0.0",
     "react-redux": "^8.1.2",
